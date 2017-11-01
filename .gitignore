@@ -1,0 +1,34 @@
+src/*.exe
+src/genesiscoin
+src/genesiscoind
+src/test_genesiscoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.genesiscoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+genesiscoin-qt
+genesiscoin-Qt.app
+
+# Unit-tests
+Makefile.test
+genesiscoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
